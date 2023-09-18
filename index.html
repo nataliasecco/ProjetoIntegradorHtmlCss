@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Instituto de Tecnologia - Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_pair_programming_re_or4x.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Instituto de Tecnologia</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Consultar Cadastros</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Digite seu endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="text" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="tel">Telefone/Whatsapp</label>
+                        <input id="tel" type="text" name="tel" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="Digite seu cpf" required>
+                    </div>
+
+                    <p class="letra-bold">*OBS: Os campos abaixo só podem ser preenchidos por alunos ou professores*</p><br /><br />
+
+                    <div class="input-box">
+                        <label for="curso">Curso (Só preencha se você for aluno)</label>
+                        <input id="curso" type="text" name="curso" placeholder="Digite seu curso" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="disciplina">Disciplina (Só preencha se você for professor)</label>
+                        <input id="disciplina" type="text" name="disciplina" placeholder="Digite a disciplina" required>
+                    </div>
+                </div>
+
+                <div class="tipo-pessoa">
+                    <div class="tipo-title">
+                        <h6>Tipo de Pessoa</h6>
+                    </div>
+
+                    <div class="tipo-group">
+                        <div class="tipo-input">
+                            <input type="radio" id="fisica" name="tipoPessoa">
+                            <label for="tipoFisica">Pessoa Física</label>
+                        </div>
+
+                        <div class="tipo-input">
+                            <input type="radio" id="juridica" name="tipoJuridica">
+                            <label for="tipoJuridica">Pessoa Jurídica</label>
+                        </div>
+
+                        <div class="tipo-input">
+                            <input type="radio" id="fornecedor" name="fornecedor">
+                            <label for="fornecedor">Fornecedor</label>
+                        </div>
+
+                        <div class="tipo-input">
+                            <input type="radio" id="professor" name="professor">
+                            <label for="professor">Professor</label>
+                        </div>
+
+                        <div class="tipo-input">
+                            <input type="radio" id="aluno" name="aluno">
+                            <label for="aluno">Aluno</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Salvar</a></button>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Pesquiisar</a></button>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Editar</a></button>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Excluir</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
